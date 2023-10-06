@@ -99,7 +99,6 @@ export async function addUserEmailToProduct(productId:string,userEmail:string) {
             await sendEmail(emailContent, [userEmail]);
         }
     }
-    catch(error){
-        
+    catch(error){ 
     }
 }
