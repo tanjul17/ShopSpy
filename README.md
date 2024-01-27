@@ -1,4 +1,4 @@
-**PriceWise: E-Commerce Price Tracker 🛒💰**
+**ShopSpy: E-Commerce Price Tracker 🛒💰**
 
 **Description:**
 E-Commerce Price Tracker is a powerful open-source tool designed to help users monitor and analyze prices of products across various e-commerce platforms. 🚀 Stay ahead of the game by keeping an eye on price fluctuations, discounts, and promotions in real-time.
