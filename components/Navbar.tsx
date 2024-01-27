@@ -11,10 +11,10 @@ const Navbar = () => {
     return (
         <header className='w-full'>
             <nav className='nav'>
-                <Link href="/" className='flex items-center gap-1'>
-                    <img src={'/assets/icons/logo.svg'} width={27} height={27} alt="logo" />
-                    <p nav-logo>
-                        Price<span className='text-primary'>Wise</span>
+                <Link href="/" className='flex items-center gap-1 font-bold text-2xl'>
+                    <img src={'/assets/icons/logo2.svg'} width={28} height={28} alt="logo" />
+                    <p nav-logo >
+                        Shop<span className='text-sky-500'>Spy</span>
                     </p>
                 </Link>
 

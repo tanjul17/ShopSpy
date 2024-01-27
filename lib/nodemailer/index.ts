@@ -30,7 +30,7 @@ export async function generateEmailBody(
             subject = `Welcome to Price Tracking for ${shortenedTitle}`;
             body = `
           <div>
-            <h2>Welcome to PriceWise 🚀</h2>
+            <h2>Welcome to ShopSpy 🚀</h2>
             <p>You are now tracking ${product.title}.</p>
             <p>Here's an example of how you'll receive updates:</p>
             <div style="border: 1px solid #ccc; padding: 10px; background-color: #f8f8f8;">
@@ -42,7 +42,7 @@ export async function generateEmailBody(
             <p>Stay tuned for more updates on ${product.title} and other products you're tracking.</p>
           </div>
         `;
-            break;
+        break;
 
         case Notification.CHANGE_OF_STOCK:
             subject = `${shortenedTitle} is now back in stock!`;
